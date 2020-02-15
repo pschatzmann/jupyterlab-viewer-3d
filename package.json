@@ -1,0 +1,41 @@
+{
+  "name": "jupyterlab-viewer-3d",
+  "version": "0.1.0",
+  "description": "A JupyterLab extension for rendering stl files.",
+  "author": "Phil Schatzmann <phil.schatzmann@gmail.com>",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "style": "style/index.css",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+  ],
+  "jupyterlab": {
+    "mimeExtension": true
+  },
+  "scripts": {
+    "clean": "rimraf lib && rimraf tsconfig.tsbuildinfo",
+    "build": "tsc",
+    "prepare": "npm run clean && npm run build",
+    "watch": "tsc -w",
+    "extension:install": "jupyter labextension install jupyterlab-viewer-3d",
+    "extension:uninstall": "jupyter labextension uninstall  jupyterlab-viewer-3d",
+    "extension:enable": "jupyter labextension enable jupyterlab-viewer-3d",
+    "extension:disable": "jupyter labextension disable jupyterlab-viewer-3d"
+  },
+  "dependencies": {
+    "@jupyterlab/rendermime-interfaces": "^2.0.0-rc.0",
+    "@lumino/widgets": "^1.5.0",
+    "three": "^0.113.2"
+  },
+  "devDependencies": {
+    "@types/react": "~16.9.16",
+    "rimraf": "^2.6.3",
+    "typescript": "~3.7.0"
+  }
+}
