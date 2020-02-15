@@ -1,6 +1,6 @@
-# jupyterlab-viewer-stl
+# jupyterlab-viewer-3d
 
-A JupyterLab extension for rendering stl files.
+A JupyterLab extension for rendering 3d files (stl, amf, obj, 3mf, gcode, collada)
 
 ## Prerequisites
 
@@ -9,7 +9,7 @@ A JupyterLab extension for rendering stl files.
 ## Installation
 
 ```bash
-jupyter labextension install jupyterlab-viewer-stl
+jupyter labextension install jupyterlab-viewer-3d
 ```
 
 ## Development
