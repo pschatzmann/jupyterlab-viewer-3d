@@ -97,229 +97,229 @@
         "version": "873c09f1c309389742d98b7b67419a8e0a5fa6f10ce59fd5149ecd31a2818594",
         "signature": "873c09f1c309389742d98b7b67419a8e0a5fa6f10ce59fd5149ecd31a2818594"
       },
-      "./node_modules/@lumino/coreutils/lib/json.d.ts": {
-        "version": "7cbb40500b5503ccd7d07a72c22bcfd8d846d78f5d22ea580acdcc4ec0b41c1a",
-        "signature": "7cbb40500b5503ccd7d07a72c22bcfd8d846d78f5d22ea580acdcc4ec0b41c1a"
+      "./node_modules/@phosphor/coreutils/lib/json.d.ts": {
+        "version": "9d441989d1cbb52939625e57621620524bf19c3c223f01007941ecd10335d0d1",
+        "signature": "9d441989d1cbb52939625e57621620524bf19c3c223f01007941ecd10335d0d1"
       },
-      "./node_modules/@lumino/coreutils/lib/mime.d.ts": {
+      "./node_modules/@phosphor/coreutils/lib/mime.d.ts": {
         "version": "28e06b63c3f364ef754eedfb0cb0f5127011f3d685e102f07ff5c56aa87d1562",
         "signature": "28e06b63c3f364ef754eedfb0cb0f5127011f3d685e102f07ff5c56aa87d1562"
       },
-      "./node_modules/@lumino/coreutils/lib/promise.d.ts": {
+      "./node_modules/@phosphor/coreutils/lib/promise.d.ts": {
         "version": "b0ee12813f8d26468aba1fd860db8180eb9e332183ad839dd554a2f19c8983cc",
         "signature": "b0ee12813f8d26468aba1fd860db8180eb9e332183ad839dd554a2f19c8983cc"
       },
-      "./node_modules/@lumino/coreutils/lib/random.d.ts": {
+      "./node_modules/@phosphor/coreutils/lib/random.d.ts": {
         "version": "b407b6761debdcd11022f0157535e7bc4977433fc09b6c188cd7c324ded64a5d",
         "signature": "b407b6761debdcd11022f0157535e7bc4977433fc09b6c188cd7c324ded64a5d"
       },
-      "./node_modules/@lumino/coreutils/lib/token.d.ts": {
+      "./node_modules/@phosphor/coreutils/lib/token.d.ts": {
         "version": "4873fe69c2bd7be609e6f3f033db4534b88735ff0769e18cb100cbf24f25e0f1",
         "signature": "4873fe69c2bd7be609e6f3f033db4534b88735ff0769e18cb100cbf24f25e0f1"
       },
-      "./node_modules/@lumino/coreutils/lib/uuid.d.ts": {
+      "./node_modules/@phosphor/coreutils/lib/uuid.d.ts": {
         "version": "094815f0e8d3c53c1b983debb0559cb347ad78142419654b6093ce285aa150cd",
         "signature": "094815f0e8d3c53c1b983debb0559cb347ad78142419654b6093ce285aa150cd"
       },
-      "./node_modules/@lumino/coreutils/lib/index.d.ts": {
+      "./node_modules/@phosphor/coreutils/lib/index.d.ts": {
         "version": "cc0fca544c9ee63d754899e93ebae35c8ba8304a100126b9c3dadee2c91a2250",
         "signature": "cc0fca544c9ee63d754899e93ebae35c8ba8304a100126b9c3dadee2c91a2250"
       },
-      "./node_modules/@lumino/widgets/lib/boxengine.d.ts": {
+      "./node_modules/@phosphor/widgets/lib/boxengine.d.ts": {
         "version": "518f0974b55341500d4234068f32fa9750c3d373f41edebbb99c47798b2d102b",
         "signature": "518f0974b55341500d4234068f32fa9750c3d373f41edebbb99c47798b2d102b"
       },
-      "./node_modules/@lumino/messaging/lib/index.d.ts": {
-        "version": "8b879d92487be3d7fda0ca6ca603edd2371025809af5253444136d7e5d7458a3",
-        "signature": "8b879d92487be3d7fda0ca6ca603edd2371025809af5253444136d7e5d7458a3"
+      "./node_modules/@phosphor/messaging/lib/index.d.ts": {
+        "version": "6d4bce054cce22306edccc85e738a800ea0364a82e85f9bf61156ed03604d24f",
+        "signature": "6d4bce054cce22306edccc85e738a800ea0364a82e85f9bf61156ed03604d24f"
       },
-      "./node_modules/@lumino/algorithm/lib/array.d.ts": {
-        "version": "77ad0f0a5e6e9be321826d3350e07342f45ee97a693bdabf92485376b91761c4",
-        "signature": "77ad0f0a5e6e9be321826d3350e07342f45ee97a693bdabf92485376b91761c4"
+      "./node_modules/@phosphor/algorithm/lib/array.d.ts": {
+        "version": "5275faae938513e793a5ea551efa77b43a47bbfac8ed8550753ec217376f24ca",
+        "signature": "5275faae938513e793a5ea551efa77b43a47bbfac8ed8550753ec217376f24ca"
       },
-      "./node_modules/@lumino/algorithm/lib/iter.d.ts": {
-        "version": "fb6d2db2901daa702aca9d6c3c28f06033f920ebfa911ed56a8efdcba8c31a4f",
-        "signature": "fb6d2db2901daa702aca9d6c3c28f06033f920ebfa911ed56a8efdcba8c31a4f"
+      "./node_modules/@phosphor/algorithm/lib/iter.d.ts": {
+        "version": "b0fe7c947694eb4f0f736af28a853b0a8dc59074329a3d9a3eb5967fbe83c10d",
+        "signature": "b0fe7c947694eb4f0f736af28a853b0a8dc59074329a3d9a3eb5967fbe83c10d"
       },
-      "./node_modules/@lumino/algorithm/lib/chain.d.ts": {
-        "version": "b2727f3c66375368cf27f53d39e7afc97582eae370368dea3344ed3e76b90475",
-        "signature": "b2727f3c66375368cf27f53d39e7afc97582eae370368dea3344ed3e76b90475"
+      "./node_modules/@phosphor/algorithm/lib/chain.d.ts": {
+        "version": "5d3db7107b3138edf0ddb9851bbba99caeb6b3e32074da4c7b45e751c296183b",
+        "signature": "5d3db7107b3138edf0ddb9851bbba99caeb6b3e32074da4c7b45e751c296183b"
       },
-      "./node_modules/@lumino/algorithm/lib/empty.d.ts": {
-        "version": "de245b6c64ce2a31acc085eb7b5dacf0164f98aa17a680711aa4e6fd41b3cd4b",
-        "signature": "de245b6c64ce2a31acc085eb7b5dacf0164f98aa17a680711aa4e6fd41b3cd4b"
+      "./node_modules/@phosphor/algorithm/lib/empty.d.ts": {
+        "version": "b86137c60e0c62f7acfd8f0e761170bc6920c105ef03868c0518be562a5c5908",
+        "signature": "b86137c60e0c62f7acfd8f0e761170bc6920c105ef03868c0518be562a5c5908"
       },
-      "./node_modules/@lumino/algorithm/lib/enumerate.d.ts": {
-        "version": "87cfce109022192057cc087fc38c50c3ad2718ee3d377c89081da723a381408f",
-        "signature": "87cfce109022192057cc087fc38c50c3ad2718ee3d377c89081da723a381408f"
+      "./node_modules/@phosphor/algorithm/lib/enumerate.d.ts": {
+        "version": "7ba39fedc2104c6d69f7f583e10ced54256f8d8e42770c754097e75f041cfb7d",
+        "signature": "7ba39fedc2104c6d69f7f583e10ced54256f8d8e42770c754097e75f041cfb7d"
       },
-      "./node_modules/@lumino/algorithm/lib/filter.d.ts": {
-        "version": "55807fce02e1dca39fd9b2f21a9d0b78c0e16b46c648646b313d5806feeeb2ba",
-        "signature": "55807fce02e1dca39fd9b2f21a9d0b78c0e16b46c648646b313d5806feeeb2ba"
+      "./node_modules/@phosphor/algorithm/lib/filter.d.ts": {
+        "version": "69d5afc46850b54ef3388769cd339f8dc88e15cd74a189bf71dac3937b4e8850",
+        "signature": "69d5afc46850b54ef3388769cd339f8dc88e15cd74a189bf71dac3937b4e8850"
       },
-      "./node_modules/@lumino/algorithm/lib/find.d.ts": {
-        "version": "21afe6ebe27646a0f32b17323556ed7bafdedd89639a075dd11e7499e2b9612c",
-        "signature": "21afe6ebe27646a0f32b17323556ed7bafdedd89639a075dd11e7499e2b9612c"
+      "./node_modules/@phosphor/algorithm/lib/find.d.ts": {
+        "version": "a8db70d3ad601f4cf3c779623a3ca232606db0c1d052cf3f1d7a3a695bcbd368",
+        "signature": "a8db70d3ad601f4cf3c779623a3ca232606db0c1d052cf3f1d7a3a695bcbd368"
       },
-      "./node_modules/@lumino/algorithm/lib/map.d.ts": {
-        "version": "1a78da3e59d79052b2d6dc713c3ad1e382c8b8a2ed778062ffe81bce53d8407e",
-        "signature": "1a78da3e59d79052b2d6dc713c3ad1e382c8b8a2ed778062ffe81bce53d8407e"
+      "./node_modules/@phosphor/algorithm/lib/map.d.ts": {
+        "version": "6256ad6e7c41a9f9ecb6349b5d5be72ea2c60ba1c6c6b3954929eb59a6980688",
+        "signature": "6256ad6e7c41a9f9ecb6349b5d5be72ea2c60ba1c6c6b3954929eb59a6980688"
       },
-      "./node_modules/@lumino/algorithm/lib/range.d.ts": {
-        "version": "ef779693e9f47e3483c48f99d41d344f2fb9f73d2d8e54aba2df544e0cfd07de",
-        "signature": "ef779693e9f47e3483c48f99d41d344f2fb9f73d2d8e54aba2df544e0cfd07de"
+      "./node_modules/@phosphor/algorithm/lib/range.d.ts": {
+        "version": "77596a948c8deffc8f059fa0f3c38688f3b05caefa303506074034b5cb1a56ae",
+        "signature": "77596a948c8deffc8f059fa0f3c38688f3b05caefa303506074034b5cb1a56ae"
       },
-      "./node_modules/@lumino/algorithm/lib/reduce.d.ts": {
-        "version": "3a1ed52a73293a0e1d24e0e2741bfc1fc2d45e872e14f38e87ea8e16b68dc966",
-        "signature": "3a1ed52a73293a0e1d24e0e2741bfc1fc2d45e872e14f38e87ea8e16b68dc966"
+      "./node_modules/@phosphor/algorithm/lib/reduce.d.ts": {
+        "version": "81ef0fab583499ba45dab44490620e7b870597d90c5e562ec5a9b38b6bd3fcdf",
+        "signature": "81ef0fab583499ba45dab44490620e7b870597d90c5e562ec5a9b38b6bd3fcdf"
       },
-      "./node_modules/@lumino/algorithm/lib/repeat.d.ts": {
-        "version": "2488f739939c0b474066c3513a6d362b12f13da403923c1fc97a1cc362833645",
-        "signature": "2488f739939c0b474066c3513a6d362b12f13da403923c1fc97a1cc362833645"
+      "./node_modules/@phosphor/algorithm/lib/repeat.d.ts": {
+        "version": "f2b309d4f1bdf8e9f4fa03bf2183eb1b2f7cb66efb5b16da52e378ce75ac17bb",
+        "signature": "f2b309d4f1bdf8e9f4fa03bf2183eb1b2f7cb66efb5b16da52e378ce75ac17bb"
       },
-      "./node_modules/@lumino/algorithm/lib/retro.d.ts": {
-        "version": "444a1640a23065fa7751e670d37836441f870bff2b3367768221d2d35b7c05ab",
-        "signature": "444a1640a23065fa7751e670d37836441f870bff2b3367768221d2d35b7c05ab"
+      "./node_modules/@phosphor/algorithm/lib/retro.d.ts": {
+        "version": "9cbaf0317ec49acb6c84d142077670a301015979260c4ecded7705fd2141379c",
+        "signature": "9cbaf0317ec49acb6c84d142077670a301015979260c4ecded7705fd2141379c"
       },
-      "./node_modules/@lumino/algorithm/lib/sort.d.ts": {
-        "version": "0a64bc6ee9cea647fca05a3cc7785950d11b9a512a25c885c0593718194308fe",
-        "signature": "0a64bc6ee9cea647fca05a3cc7785950d11b9a512a25c885c0593718194308fe"
+      "./node_modules/@phosphor/algorithm/lib/sort.d.ts": {
+        "version": "5a49d16b6f7d3ca5c66569784290c0ed7a3d74821095e2ab91e17ea444ac4657",
+        "signature": "5a49d16b6f7d3ca5c66569784290c0ed7a3d74821095e2ab91e17ea444ac4657"
       },
-      "./node_modules/@lumino/algorithm/lib/stride.d.ts": {
-        "version": "7063a384252b09882cb0aa1236bbc264c2f78468dfeff1fda6c7eacc90220fca",
-        "signature": "7063a384252b09882cb0aa1236bbc264c2f78468dfeff1fda6c7eacc90220fca"
+      "./node_modules/@phosphor/algorithm/lib/stride.d.ts": {
+        "version": "2e5fab5fe6e398cb14f695da07044a65f4e32c8d0fe9b31f5fe52d2cc7656230",
+        "signature": "2e5fab5fe6e398cb14f695da07044a65f4e32c8d0fe9b31f5fe52d2cc7656230"
       },
-      "./node_modules/@lumino/algorithm/lib/string.d.ts": {
-        "version": "1cb9099cb325ee016f4ff8cd06684d5e708898bec1cb031d29741fe6deb68bda",
-        "signature": "1cb9099cb325ee016f4ff8cd06684d5e708898bec1cb031d29741fe6deb68bda"
+      "./node_modules/@phosphor/algorithm/lib/string.d.ts": {
+        "version": "92e581f3d154511056bfba03e72ed3cffa92681b4b9bb1953b0b724f67a664bc",
+        "signature": "92e581f3d154511056bfba03e72ed3cffa92681b4b9bb1953b0b724f67a664bc"
       },
-      "./node_modules/@lumino/algorithm/lib/take.d.ts": {
-        "version": "4557ecbb6b007b733a2a14f32660e9cd80f43d3e7732da35fe48b2af8f353e41",
-        "signature": "4557ecbb6b007b733a2a14f32660e9cd80f43d3e7732da35fe48b2af8f353e41"
+      "./node_modules/@phosphor/algorithm/lib/take.d.ts": {
+        "version": "c9deb61903fd8318e6845e4e0f03b3bd813cdae1778f8dc9ee0ec05f9ca22094",
+        "signature": "c9deb61903fd8318e6845e4e0f03b3bd813cdae1778f8dc9ee0ec05f9ca22094"
       },
-      "./node_modules/@lumino/algorithm/lib/zip.d.ts": {
-        "version": "d20769a9ae113f35153bc23308ae80f289fd8b403a16ef55b7e0a5ad09bb80b6",
-        "signature": "d20769a9ae113f35153bc23308ae80f289fd8b403a16ef55b7e0a5ad09bb80b6"
+      "./node_modules/@phosphor/algorithm/lib/zip.d.ts": {
+        "version": "7bc3152a4c8adf395ad486da44acb6e8c98dedd2becc83810b076114338a5045",
+        "signature": "7bc3152a4c8adf395ad486da44acb6e8c98dedd2becc83810b076114338a5045"
       },
-      "./node_modules/@lumino/algorithm/lib/index.d.ts": {
-        "version": "f5b96373e034ee40f5db161de7624402e4ac79f5dc510377af8a29afee2b15ec",
-        "signature": "f5b96373e034ee40f5db161de7624402e4ac79f5dc510377af8a29afee2b15ec"
+      "./node_modules/@phosphor/algorithm/lib/index.d.ts": {
+        "version": "30a8688575aeada46c1268d671b2a1de78705ebc0d5343e75b96c25f149caa98",
+        "signature": "30a8688575aeada46c1268d671b2a1de78705ebc0d5343e75b96c25f149caa98"
       },
-      "./node_modules/@lumino/signaling/lib/index.d.ts": {
-        "version": "311421cce6ca0b1071c1630fea95e8bcd7e4ed20bd472b2c0409c1015520c4c7",
-        "signature": "311421cce6ca0b1071c1630fea95e8bcd7e4ed20bd472b2c0409c1015520c4c7"
+      "./node_modules/@phosphor/signaling/lib/index.d.ts": {
+        "version": "e29b5eb559a057d36584ec480d49711f0c81bed176bb6256df584e800c453760",
+        "signature": "e29b5eb559a057d36584ec480d49711f0c81bed176bb6256df584e800c453760"
       },
-      "./node_modules/@lumino/disposable/lib/index.d.ts": {
-        "version": "87060f192e4c3b492397bcee1395aa411d9b95189241d248a64e50286ddf2264",
-        "signature": "87060f192e4c3b492397bcee1395aa411d9b95189241d248a64e50286ddf2264"
+      "./node_modules/@phosphor/disposable/lib/index.d.ts": {
+        "version": "57e52fd41767e09990c28cd092037736625b3c492c412d7b5c72282a4a97e2be",
+        "signature": "57e52fd41767e09990c28cd092037736625b3c492c412d7b5c72282a4a97e2be"
       },
-      "./node_modules/@lumino/virtualdom/lib/index.d.ts": {
-        "version": "62acc5046c9e8c868c652f056d78ff9debd117d25451eba8b5fad5c8cccde655",
-        "signature": "62acc5046c9e8c868c652f056d78ff9debd117d25451eba8b5fad5c8cccde655"
+      "./node_modules/@phosphor/widgets/lib/title.d.ts": {
+        "version": "02906328718f740db2bd453ed956e9b954b5ca10511695a44f6e8c25c3db8a40",
+        "signature": "02906328718f740db2bd453ed956e9b954b5ca10511695a44f6e8c25c3db8a40"
       },
-      "./node_modules/@lumino/widgets/lib/title.d.ts": {
-        "version": "54e77fa97fe3b31700f2b018ae1b4ff4094041b6a7718982a671186e813b736f",
-        "signature": "54e77fa97fe3b31700f2b018ae1b4ff4094041b6a7718982a671186e813b736f"
+      "./node_modules/@phosphor/widgets/lib/widget.d.ts": {
+        "version": "b532781d9096fd879f4292fbbe656fac7cf51a3d3628a562d40fe0b29cb3d8ff",
+        "signature": "b532781d9096fd879f4292fbbe656fac7cf51a3d3628a562d40fe0b29cb3d8ff"
       },
-      "./node_modules/@lumino/widgets/lib/widget.d.ts": {
-        "version": "f6a911708cff86a5e64b79ef20566e30c95dc0a7e249dc71ec5fbcbe6706705b",
-        "signature": "f6a911708cff86a5e64b79ef20566e30c95dc0a7e249dc71ec5fbcbe6706705b"
+      "./node_modules/@phosphor/widgets/lib/layout.d.ts": {
+        "version": "5350283d2aee045bf447f38aa46474cc2dc46c5e304ff05fd71a4539c6de67f9",
+        "signature": "5350283d2aee045bf447f38aa46474cc2dc46c5e304ff05fd71a4539c6de67f9"
       },
-      "./node_modules/@lumino/widgets/lib/layout.d.ts": {
-        "version": "bf0443ca576db0ebac92b2a59748210765e79d56a9a781d41b9adf9f19f64417",
-        "signature": "bf0443ca576db0ebac92b2a59748210765e79d56a9a781d41b9adf9f19f64417"
+      "./node_modules/@phosphor/widgets/lib/panellayout.d.ts": {
+        "version": "f9e8dc69b67c409b6dd500317065381e70eeb45774a2b6a2d267797277789856",
+        "signature": "f9e8dc69b67c409b6dd500317065381e70eeb45774a2b6a2d267797277789856"
       },
-      "./node_modules/@lumino/widgets/lib/panellayout.d.ts": {
-        "version": "a170ed32949315f206f3b24b01463559f051dfd81454c07f6e52d41c928b51f2",
-        "signature": "a170ed32949315f206f3b24b01463559f051dfd81454c07f6e52d41c928b51f2"
+      "./node_modules/@phosphor/widgets/lib/boxlayout.d.ts": {
+        "version": "61bfa4334dbf9c4bd1d9fcd66243f15e9bd1aa9d6c57d329c1f976e706b3b07a",
+        "signature": "61bfa4334dbf9c4bd1d9fcd66243f15e9bd1aa9d6c57d329c1f976e706b3b07a"
       },
-      "./node_modules/@lumino/widgets/lib/boxlayout.d.ts": {
-        "version": "ae9cc5b6e39deb286bc628d893d2484b2c326ac4ddba65b62372a237498abbc8",
-        "signature": "ae9cc5b6e39deb286bc628d893d2484b2c326ac4ddba65b62372a237498abbc8"
-      },
-      "./node_modules/@lumino/widgets/lib/panel.d.ts": {
+      "./node_modules/@phosphor/widgets/lib/panel.d.ts": {
         "version": "d9bda13de04067b09bd723693fd3c87583b958d3593f0881e333fb75fa9e79e3",
         "signature": "d9bda13de04067b09bd723693fd3c87583b958d3593f0881e333fb75fa9e79e3"
       },
-      "./node_modules/@lumino/widgets/lib/boxpanel.d.ts": {
+      "./node_modules/@phosphor/widgets/lib/boxpanel.d.ts": {
         "version": "6742b16104faa968b6daf0d577348e7be96c5988492c8bf5616fa79209de3906",
         "signature": "6742b16104faa968b6daf0d577348e7be96c5988492c8bf5616fa79209de3906"
       },
-      "./node_modules/@lumino/commands/lib/index.d.ts": {
-        "version": "88b691e9f79f6f28bd8295b4808aeb90614756256cac6e7e93459841d7643d60",
-        "signature": "88b691e9f79f6f28bd8295b4808aeb90614756256cac6e7e93459841d7643d60"
+      "./node_modules/@phosphor/commands/lib/index.d.ts": {
+        "version": "f7a4e242113dbee5fdbc1340ae8fa59fa1d92eeb41d3a9f2a7f34434036d8e87",
+        "signature": "f7a4e242113dbee5fdbc1340ae8fa59fa1d92eeb41d3a9f2a7f34434036d8e87"
       },
-      "./node_modules/@lumino/widgets/lib/commandpalette.d.ts": {
-        "version": "82ae4f46e8b65c7b0a5d8804a555452333ff935750ef05dd3eb179435a43838a",
-        "signature": "82ae4f46e8b65c7b0a5d8804a555452333ff935750ef05dd3eb179435a43838a"
+      "./node_modules/@phosphor/virtualdom/lib/index.d.ts": {
+        "version": "e582863f95c72400f8ddadeee51f6339c484aad6815b62a646b6bbedf4f579e2",
+        "signature": "e582863f95c72400f8ddadeee51f6339c484aad6815b62a646b6bbedf4f579e2"
       },
-      "./node_modules/@lumino/widgets/lib/menu.d.ts": {
-        "version": "f53ee299fdb4c213db26023305c9bcab424cc4af4559eb9daf9aa4ecf90900fc",
-        "signature": "f53ee299fdb4c213db26023305c9bcab424cc4af4559eb9daf9aa4ecf90900fc"
+      "./node_modules/@phosphor/widgets/lib/commandpalette.d.ts": {
+        "version": "1db72b5c0ab78997e0ce774d3ec782288690a3527c9afa2395fd8f0aea1d1dae",
+        "signature": "1db72b5c0ab78997e0ce774d3ec782288690a3527c9afa2395fd8f0aea1d1dae"
       },
-      "./node_modules/@lumino/widgets/lib/contextmenu.d.ts": {
-        "version": "cfc25d2479421b9f89ecd21069ac277b086e2f93d6fbe6d169b54343a6dd7cdb",
-        "signature": "cfc25d2479421b9f89ecd21069ac277b086e2f93d6fbe6d169b54343a6dd7cdb"
+      "./node_modules/@phosphor/widgets/lib/menu.d.ts": {
+        "version": "5d2d8228652d10324f96849e4ae8cc8eeadcf6ca72ef6e0398f6998e94d19915",
+        "signature": "5d2d8228652d10324f96849e4ae8cc8eeadcf6ca72ef6e0398f6998e94d19915"
       },
-      "./node_modules/@lumino/widgets/lib/tabbar.d.ts": {
-        "version": "09190552321539054bfffcfc4ef74504c9253ff858037796641a1b0cc83e436a",
-        "signature": "09190552321539054bfffcfc4ef74504c9253ff858037796641a1b0cc83e436a"
+      "./node_modules/@phosphor/widgets/lib/contextmenu.d.ts": {
+        "version": "a58928566bd438cace363dd567a9a8df609a82166d487dff5e6820b0215fd01e",
+        "signature": "a58928566bd438cace363dd567a9a8df609a82166d487dff5e6820b0215fd01e"
       },
-      "./node_modules/@lumino/widgets/lib/docklayout.d.ts": {
-        "version": "b26df2b53af86fd2caf3ffe2afdf208bb2fcf30b4ace9454487d8d311baecd60",
-        "signature": "b26df2b53af86fd2caf3ffe2afdf208bb2fcf30b4ace9454487d8d311baecd60"
+      "./node_modules/@phosphor/widgets/lib/tabbar.d.ts": {
+        "version": "4e34c1aefcb13a420bc0255e2ee6452110d3d4c2a58821f681d81fc51c280f50",
+        "signature": "4e34c1aefcb13a420bc0255e2ee6452110d3d4c2a58821f681d81fc51c280f50"
       },
-      "./node_modules/@lumino/widgets/lib/dockpanel.d.ts": {
-        "version": "7eb9476ffdfc10f344ff0a686d783a2ff9fa8797722d692c077767a979975b7c",
-        "signature": "7eb9476ffdfc10f344ff0a686d783a2ff9fa8797722d692c077767a979975b7c"
+      "./node_modules/@phosphor/widgets/lib/docklayout.d.ts": {
+        "version": "647ef68c9129fd074bfe02783c4202c1768cd9c490632b574a246f0a5ec7ccd9",
+        "signature": "647ef68c9129fd074bfe02783c4202c1768cd9c490632b574a246f0a5ec7ccd9"
       },
-      "./node_modules/@lumino/widgets/lib/focustracker.d.ts": {
-        "version": "86020ba5f9603decdc09364cac1315e939ec4ccfa084f9fca7ac650b1d2bd0ec",
-        "signature": "86020ba5f9603decdc09364cac1315e939ec4ccfa084f9fca7ac650b1d2bd0ec"
+      "./node_modules/@phosphor/widgets/lib/dockpanel.d.ts": {
+        "version": "6fb0cad19f294c0e0f12adf0d3404649a6779186d9499f9a7b4b234531736491",
+        "signature": "6fb0cad19f294c0e0f12adf0d3404649a6779186d9499f9a7b4b234531736491"
       },
-      "./node_modules/@lumino/widgets/lib/gridlayout.d.ts": {
-        "version": "be0b06da33a0a27fdbe36564633711b29633fb9c7815d7c5c62460d2a027574a",
-        "signature": "be0b06da33a0a27fdbe36564633711b29633fb9c7815d7c5c62460d2a027574a"
+      "./node_modules/@phosphor/widgets/lib/focustracker.d.ts": {
+        "version": "269a9559f1d701c5c31cac903e6d6cecd2116321b0113a62bfe21433e85ed236",
+        "signature": "269a9559f1d701c5c31cac903e6d6cecd2116321b0113a62bfe21433e85ed236"
       },
-      "./node_modules/@lumino/widgets/lib/menubar.d.ts": {
-        "version": "17f9d9a823c857ea88dabbe94a3e718a3db5924c6e4950c00037402010ac430e",
-        "signature": "17f9d9a823c857ea88dabbe94a3e718a3db5924c6e4950c00037402010ac430e"
+      "./node_modules/@phosphor/widgets/lib/gridlayout.d.ts": {
+        "version": "cc71c2b4ac696b027eff499027d4d5febb9a6ead9cc3f81a310bb7d8e39752ff",
+        "signature": "cc71c2b4ac696b027eff499027d4d5febb9a6ead9cc3f81a310bb7d8e39752ff"
       },
-      "./node_modules/@lumino/widgets/lib/scrollbar.d.ts": {
-        "version": "d5bda740328264c917651833091016f73cde97f3ed47d2ce5b32161ffd4dc930",
-        "signature": "d5bda740328264c917651833091016f73cde97f3ed47d2ce5b32161ffd4dc930"
+      "./node_modules/@phosphor/widgets/lib/menubar.d.ts": {
+        "version": "e64e93eca04ceacfaf726ba306e41b04f7a29943aa57c36486f016e27321894c",
+        "signature": "e64e93eca04ceacfaf726ba306e41b04f7a29943aa57c36486f016e27321894c"
       },
-      "./node_modules/@lumino/widgets/lib/singletonlayout.d.ts": {
-        "version": "5cd0aa97b8c05bc1d8827c44bc3a6be6941c73fe4bf88086d25ea8694a45134d",
-        "signature": "5cd0aa97b8c05bc1d8827c44bc3a6be6941c73fe4bf88086d25ea8694a45134d"
+      "./node_modules/@phosphor/widgets/lib/scrollbar.d.ts": {
+        "version": "2f3b5535020128e321e7e24c186ae8079267c213965315b08e29af9c93bf44df",
+        "signature": "2f3b5535020128e321e7e24c186ae8079267c213965315b08e29af9c93bf44df"
       },
-      "./node_modules/@lumino/widgets/lib/splitlayout.d.ts": {
-        "version": "7205a2b1a56dcfbecd10262e3f6d0f88e895e6e585c4dde839c51e15a62830e9",
-        "signature": "7205a2b1a56dcfbecd10262e3f6d0f88e895e6e585c4dde839c51e15a62830e9"
+      "./node_modules/@phosphor/widgets/lib/singletonlayout.d.ts": {
+        "version": "a47f0b0ea63dc40176bfea2bd26f40e59dda410acce93594c4bd0fb25d314c08",
+        "signature": "a47f0b0ea63dc40176bfea2bd26f40e59dda410acce93594c4bd0fb25d314c08"
       },
-      "./node_modules/@lumino/widgets/lib/splitpanel.d.ts": {
-        "version": "db380b2a457001e3f1102b28989f8bd9b2bf69627f43fed92cde99e9f32016bb",
-        "signature": "db380b2a457001e3f1102b28989f8bd9b2bf69627f43fed92cde99e9f32016bb"
+      "./node_modules/@phosphor/widgets/lib/splitlayout.d.ts": {
+        "version": "07f9bd74c94fc6337534679f78e91e113bfbbec0e6994e4ea4d12002800a9221",
+        "signature": "07f9bd74c94fc6337534679f78e91e113bfbbec0e6994e4ea4d12002800a9221"
       },
-      "./node_modules/@lumino/widgets/lib/stackedlayout.d.ts": {
-        "version": "138dc46c339d7d67fb42404386e5f9f7150eff3a48061ca04d44f3555f9bdf6d",
-        "signature": "138dc46c339d7d67fb42404386e5f9f7150eff3a48061ca04d44f3555f9bdf6d"
+      "./node_modules/@phosphor/widgets/lib/splitpanel.d.ts": {
+        "version": "f49aecef81c20d28b6c02d0b541aa6fd27c92cb577eb8b6cc809fee5cfb4c87d",
+        "signature": "f49aecef81c20d28b6c02d0b541aa6fd27c92cb577eb8b6cc809fee5cfb4c87d"
       },
-      "./node_modules/@lumino/widgets/lib/stackedpanel.d.ts": {
-        "version": "1b395aaf7719842e8707846bcf19beff64cc89f7d28ea7c4d9e7f6bac17a90e0",
-        "signature": "1b395aaf7719842e8707846bcf19beff64cc89f7d28ea7c4d9e7f6bac17a90e0"
+      "./node_modules/@phosphor/widgets/lib/stackedlayout.d.ts": {
+        "version": "6e771f66549892608000cb2ced46e2f6b1bd32498357166d2b972edb996e917e",
+        "signature": "6e771f66549892608000cb2ced46e2f6b1bd32498357166d2b972edb996e917e"
       },
-      "./node_modules/@lumino/widgets/lib/tabpanel.d.ts": {
-        "version": "182edba81e9d1154f0f772847ebd3098951cb6765496b8a0d24b9589bb9e9d57",
-        "signature": "182edba81e9d1154f0f772847ebd3098951cb6765496b8a0d24b9589bb9e9d57"
+      "./node_modules/@phosphor/widgets/lib/stackedpanel.d.ts": {
+        "version": "e669ba06b92a6457dbd3d8fa2a2cc8652f17f177a985ad8d7d4a716be960496f",
+        "signature": "e669ba06b92a6457dbd3d8fa2a2cc8652f17f177a985ad8d7d4a716be960496f"
       },
-      "./node_modules/@lumino/widgets/lib/index.d.ts": {
+      "./node_modules/@phosphor/widgets/lib/tabpanel.d.ts": {
+        "version": "e0b9646e6407be4123c23fd79c53f899f8484cfe6af5f7dd1ed6f12eda7e0dbe",
+        "signature": "e0b9646e6407be4123c23fd79c53f899f8484cfe6af5f7dd1ed6f12eda7e0dbe"
+      },
+      "./node_modules/@phosphor/widgets/lib/index.d.ts": {
         "version": "ce75ab9766be65e1b6837cba39ea25ebfbe25f431e0f97e1863743817fad2d91",
         "signature": "ce75ab9766be65e1b6837cba39ea25ebfbe25f431e0f97e1863743817fad2d91"
       },
       "./node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts": {
-        "version": "85497ff49b25c088caa764f9897a4b0a09825204dff99de9e75a0d6987330374",
-        "signature": "85497ff49b25c088caa764f9897a4b0a09825204dff99de9e75a0d6987330374"
+        "version": "eb8daa17d94f2a8c9c4432ab4dc8e52e0a656cd0aa712a7a205b6f56c9724618",
+        "signature": "eb8daa17d94f2a8c9c4432ab4dc8e52e0a656cd0aa712a7a205b6f56c9724618"
       },
       "./node_modules/three/src/polyfills.d.ts": {
         "version": "bae8640f98f4800ab31583b8a680e283d8f7e51d1d601f23a2461ebf2a35b7b6",
@@ -1266,8 +1266,8 @@
         "signature": "fe86dfcfe00c2e115b49a267f7f9067b6119761995d341cfbf058fdb211323b7"
       },
       "./src/index.ts": {
-        "version": "abba021fa9962a1472bf9c741100882988f124730e9995cf9ebcc4202270c4ef",
-        "signature": "11e0e12ab535999b162cefdf707c53ea10ca072781af35b3b2856cc052feba98"
+        "version": "e1c737dbc63a5178cce0c939ba329b5fff847b0367023dae4f72eeaa1ba185cc",
+        "signature": "579af09b73b94f588516971a1c3a7b4499d2f9b93badfc0aa17901295804ff21"
       }
     },
     "options": {
@@ -1293,249 +1293,247 @@
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
-      "./node_modules/@lumino/coreutils/lib/index.d.ts": [
-        "./node_modules/@lumino/coreutils/lib/json.d.ts",
-        "./node_modules/@lumino/coreutils/lib/mime.d.ts",
-        "./node_modules/@lumino/coreutils/lib/promise.d.ts",
-        "./node_modules/@lumino/coreutils/lib/random.d.ts",
-        "./node_modules/@lumino/coreutils/lib/token.d.ts",
-        "./node_modules/@lumino/coreutils/lib/uuid.d.ts"
+      "./node_modules/@phosphor/coreutils/lib/index.d.ts": [
+        "./node_modules/@phosphor/coreutils/lib/json.d.ts",
+        "./node_modules/@phosphor/coreutils/lib/mime.d.ts",
+        "./node_modules/@phosphor/coreutils/lib/promise.d.ts",
+        "./node_modules/@phosphor/coreutils/lib/random.d.ts",
+        "./node_modules/@phosphor/coreutils/lib/token.d.ts",
+        "./node_modules/@phosphor/coreutils/lib/uuid.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/chain.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/chain.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/empty.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/empty.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/enumerate.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/enumerate.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/filter.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/filter.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/find.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/find.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/map.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/map.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/range.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/range.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/reduce.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/reduce.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/repeat.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/repeat.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/retro.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/retro.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/sort.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/sort.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/stride.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/stride.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/take.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/take.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/zip.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/zip.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/index.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/array.d.ts",
-        "./node_modules/@lumino/algorithm/lib/chain.d.ts",
-        "./node_modules/@lumino/algorithm/lib/empty.d.ts",
-        "./node_modules/@lumino/algorithm/lib/enumerate.d.ts",
-        "./node_modules/@lumino/algorithm/lib/filter.d.ts",
-        "./node_modules/@lumino/algorithm/lib/find.d.ts",
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts",
-        "./node_modules/@lumino/algorithm/lib/map.d.ts",
-        "./node_modules/@lumino/algorithm/lib/range.d.ts",
-        "./node_modules/@lumino/algorithm/lib/reduce.d.ts",
-        "./node_modules/@lumino/algorithm/lib/repeat.d.ts",
-        "./node_modules/@lumino/algorithm/lib/retro.d.ts",
-        "./node_modules/@lumino/algorithm/lib/sort.d.ts",
-        "./node_modules/@lumino/algorithm/lib/stride.d.ts",
-        "./node_modules/@lumino/algorithm/lib/string.d.ts",
-        "./node_modules/@lumino/algorithm/lib/take.d.ts",
-        "./node_modules/@lumino/algorithm/lib/zip.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/index.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/array.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/chain.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/empty.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/enumerate.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/filter.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/find.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/map.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/range.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/reduce.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/repeat.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/retro.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/sort.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/stride.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/string.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/take.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/zip.d.ts"
       ],
-      "./node_modules/@lumino/disposable/lib/index.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/index.d.ts",
-        "./node_modules/@lumino/signaling/lib/index.d.ts"
+      "./node_modules/@phosphor/disposable/lib/index.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "./node_modules/@phosphor/signaling/lib/index.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/title.d.ts": [
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/virtualdom/lib/index.d.ts"
+      "./node_modules/@phosphor/widgets/lib/title.d.ts": [
+        "./node_modules/@phosphor/signaling/lib/index.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/widget.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/index.d.ts",
-        "./node_modules/@lumino/disposable/lib/index.d.ts",
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/layout.d.ts",
-        "./node_modules/@lumino/widgets/lib/title.d.ts"
+      "./node_modules/@phosphor/widgets/lib/widget.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "./node_modules/@phosphor/disposable/lib/index.d.ts",
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/signaling/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/title.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/layout.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/index.d.ts",
-        "./node_modules/@lumino/disposable/lib/index.d.ts",
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/layout.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "./node_modules/@phosphor/disposable/lib/index.d.ts",
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/panellayout.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/layout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/panellayout.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/boxlayout.d.ts": [
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/panellayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/boxlayout.d.ts": [
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/panellayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/panel.d.ts": [
-        "./node_modules/@lumino/widgets/lib/panellayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/panel.d.ts": [
+        "./node_modules/@phosphor/widgets/lib/panellayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/boxpanel.d.ts": [
-        "./node_modules/@lumino/widgets/lib/boxlayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/panel.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/boxpanel.d.ts": [
+        "./node_modules/@phosphor/widgets/lib/boxlayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/panel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/commands/lib/index.d.ts": [
-        "./node_modules/@lumino/coreutils/lib/index.d.ts",
-        "./node_modules/@lumino/disposable/lib/index.d.ts",
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/virtualdom/lib/index.d.ts"
+      "./node_modules/@phosphor/commands/lib/index.d.ts": [
+        "./node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "./node_modules/@phosphor/disposable/lib/index.d.ts",
+        "./node_modules/@phosphor/signaling/lib/index.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/commandpalette.d.ts": [
-        "./node_modules/@lumino/coreutils/lib/index.d.ts",
-        "./node_modules/@lumino/commands/lib/index.d.ts",
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/virtualdom/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/commandpalette.d.ts": [
+        "./node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "./node_modules/@phosphor/commands/lib/index.d.ts",
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/virtualdom/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/menu.d.ts": [
-        "./node_modules/@lumino/commands/lib/index.d.ts",
-        "./node_modules/@lumino/coreutils/lib/index.d.ts",
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/virtualdom/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/menu.d.ts": [
+        "./node_modules/@phosphor/commands/lib/index.d.ts",
+        "./node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/signaling/lib/index.d.ts",
+        "./node_modules/@phosphor/virtualdom/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/contextmenu.d.ts": [
-        "./node_modules/@lumino/commands/lib/index.d.ts",
-        "./node_modules/@lumino/disposable/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/menu.d.ts"
+      "./node_modules/@phosphor/widgets/lib/contextmenu.d.ts": [
+        "./node_modules/@phosphor/commands/lib/index.d.ts",
+        "./node_modules/@phosphor/disposable/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/menu.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/tabbar.d.ts": [
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/virtualdom/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/title.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/tabbar.d.ts": [
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/signaling/lib/index.d.ts",
+        "./node_modules/@phosphor/virtualdom/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/title.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/docklayout.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/index.d.ts",
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/layout.d.ts",
-        "./node_modules/@lumino/widgets/lib/tabbar.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/docklayout.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/tabbar.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/dockpanel.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/index.d.ts",
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/docklayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/tabbar.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/dockpanel.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/signaling/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/docklayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/tabbar.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/focustracker.d.ts": [
-        "./node_modules/@lumino/disposable/lib/index.d.ts",
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/focustracker.d.ts": [
+        "./node_modules/@phosphor/disposable/lib/index.d.ts",
+        "./node_modules/@phosphor/signaling/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/gridlayout.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/index.d.ts",
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/layout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/gridlayout.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/menubar.d.ts": [
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/virtualdom/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/menu.d.ts",
-        "./node_modules/@lumino/widgets/lib/title.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/menubar.d.ts": [
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/virtualdom/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/menu.d.ts",
+        "./node_modules/@phosphor/widgets/lib/title.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/scrollbar.d.ts": [
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/scrollbar.d.ts": [
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/signaling/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/singletonlayout.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/layout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/singletonlayout.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/splitlayout.d.ts": [
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/panellayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/splitlayout.d.ts": [
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/panellayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/splitpanel.d.ts": [
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/panel.d.ts",
-        "./node_modules/@lumino/widgets/lib/splitlayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/splitpanel.d.ts": [
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/panel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/splitlayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/stackedlayout.d.ts": [
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/panellayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/stackedlayout.d.ts": [
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/panellayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/stackedpanel.d.ts": [
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/panel.d.ts",
-        "./node_modules/@lumino/widgets/lib/stackedlayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/stackedpanel.d.ts": [
+        "./node_modules/@phosphor/signaling/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/panel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/stackedlayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/tabpanel.d.ts": [
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/stackedpanel.d.ts",
-        "./node_modules/@lumino/widgets/lib/tabbar.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/tabpanel.d.ts": [
+        "./node_modules/@phosphor/signaling/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/stackedpanel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/tabbar.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/index.d.ts": [
-        "./node_modules/@lumino/widgets/lib/boxengine.d.ts",
-        "./node_modules/@lumino/widgets/lib/boxlayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/boxpanel.d.ts",
-        "./node_modules/@lumino/widgets/lib/commandpalette.d.ts",
-        "./node_modules/@lumino/widgets/lib/contextmenu.d.ts",
-        "./node_modules/@lumino/widgets/lib/docklayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/dockpanel.d.ts",
-        "./node_modules/@lumino/widgets/lib/focustracker.d.ts",
-        "./node_modules/@lumino/widgets/lib/gridlayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/layout.d.ts",
-        "./node_modules/@lumino/widgets/lib/menu.d.ts",
-        "./node_modules/@lumino/widgets/lib/menubar.d.ts",
-        "./node_modules/@lumino/widgets/lib/panel.d.ts",
-        "./node_modules/@lumino/widgets/lib/panellayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/scrollbar.d.ts",
-        "./node_modules/@lumino/widgets/lib/singletonlayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/splitlayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/splitpanel.d.ts",
-        "./node_modules/@lumino/widgets/lib/stackedlayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/stackedpanel.d.ts",
-        "./node_modules/@lumino/widgets/lib/tabbar.d.ts",
-        "./node_modules/@lumino/widgets/lib/tabpanel.d.ts",
-        "./node_modules/@lumino/widgets/lib/title.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/index.d.ts": [
+        "./node_modules/@phosphor/widgets/lib/boxengine.d.ts",
+        "./node_modules/@phosphor/widgets/lib/boxlayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/boxpanel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/commandpalette.d.ts",
+        "./node_modules/@phosphor/widgets/lib/contextmenu.d.ts",
+        "./node_modules/@phosphor/widgets/lib/docklayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/dockpanel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/focustracker.d.ts",
+        "./node_modules/@phosphor/widgets/lib/gridlayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/menu.d.ts",
+        "./node_modules/@phosphor/widgets/lib/menubar.d.ts",
+        "./node_modules/@phosphor/widgets/lib/panel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/panellayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/scrollbar.d.ts",
+        "./node_modules/@phosphor/widgets/lib/singletonlayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/splitlayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/splitpanel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/stackedlayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/stackedpanel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/tabbar.d.ts",
+        "./node_modules/@phosphor/widgets/lib/tabpanel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/title.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
       "./node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts": [
-        "./node_modules/@lumino/coreutils/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/index.d.ts"
+        "./node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/index.d.ts"
       ],
       "./node_modules/three/src/math/quaternion.d.ts": [
         "./node_modules/three/src/math/euler.d.ts",
@@ -2809,7 +2807,7 @@
       ],
       "./src/index.ts": [
         "./node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/index.d.ts",
         "./node_modules/three/src/three.d.ts",
         "./node_modules/three/examples/jsm/loaders/colladaloader.d.ts",
         "./node_modules/three/examples/jsm/loaders/stlloader.d.ts",
@@ -2821,17 +2819,17 @@
       ]
     },
     "exportedModulesMap": {
-      "./node_modules/@lumino/coreutils/lib/index.d.ts": [
-        "./node_modules/@lumino/coreutils/lib/json.d.ts",
-        "./node_modules/@lumino/coreutils/lib/mime.d.ts",
-        "./node_modules/@lumino/coreutils/lib/promise.d.ts",
-        "./node_modules/@lumino/coreutils/lib/random.d.ts",
-        "./node_modules/@lumino/coreutils/lib/token.d.ts",
-        "./node_modules/@lumino/coreutils/lib/uuid.d.ts"
+      "./node_modules/@phosphor/coreutils/lib/index.d.ts": [
+        "./node_modules/@phosphor/coreutils/lib/json.d.ts",
+        "./node_modules/@phosphor/coreutils/lib/mime.d.ts",
+        "./node_modules/@phosphor/coreutils/lib/promise.d.ts",
+        "./node_modules/@phosphor/coreutils/lib/random.d.ts",
+        "./node_modules/@phosphor/coreutils/lib/token.d.ts",
+        "./node_modules/@phosphor/coreutils/lib/uuid.d.ts"
       ],
       "./node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts": [
-        "./node_modules/@lumino/coreutils/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/index.d.ts"
+        "./node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/index.d.ts"
       ],
       "./src/index.ts": [
         "./node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
@@ -2841,239 +2839,237 @@
         "./node_modules/three/examples/jsm/loaders/3mfloader.d.ts",
         "./node_modules/three/examples/jsm/loaders/amfloader.d.ts",
         "./node_modules/three/examples/jsm/loaders/gcodeloader.d.ts",
-        "./node_modules/@lumino/widgets/lib/index.d.ts"
+        "./node_modules/@phosphor/widgets/lib/index.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/menu.d.ts": [
-        "./node_modules/@lumino/commands/lib/index.d.ts",
-        "./node_modules/@lumino/coreutils/lib/index.d.ts",
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/virtualdom/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/menu.d.ts": [
+        "./node_modules/@phosphor/commands/lib/index.d.ts",
+        "./node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/signaling/lib/index.d.ts",
+        "./node_modules/@phosphor/virtualdom/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/index.d.ts": [
-        "./node_modules/@lumino/widgets/lib/boxengine.d.ts",
-        "./node_modules/@lumino/widgets/lib/boxlayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/boxpanel.d.ts",
-        "./node_modules/@lumino/widgets/lib/commandpalette.d.ts",
-        "./node_modules/@lumino/widgets/lib/contextmenu.d.ts",
-        "./node_modules/@lumino/widgets/lib/docklayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/dockpanel.d.ts",
-        "./node_modules/@lumino/widgets/lib/focustracker.d.ts",
-        "./node_modules/@lumino/widgets/lib/gridlayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/layout.d.ts",
-        "./node_modules/@lumino/widgets/lib/menu.d.ts",
-        "./node_modules/@lumino/widgets/lib/menubar.d.ts",
-        "./node_modules/@lumino/widgets/lib/panel.d.ts",
-        "./node_modules/@lumino/widgets/lib/panellayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/scrollbar.d.ts",
-        "./node_modules/@lumino/widgets/lib/singletonlayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/splitlayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/splitpanel.d.ts",
-        "./node_modules/@lumino/widgets/lib/stackedlayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/stackedpanel.d.ts",
-        "./node_modules/@lumino/widgets/lib/tabbar.d.ts",
-        "./node_modules/@lumino/widgets/lib/tabpanel.d.ts",
-        "./node_modules/@lumino/widgets/lib/title.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/index.d.ts": [
+        "./node_modules/@phosphor/widgets/lib/boxengine.d.ts",
+        "./node_modules/@phosphor/widgets/lib/boxlayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/boxpanel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/commandpalette.d.ts",
+        "./node_modules/@phosphor/widgets/lib/contextmenu.d.ts",
+        "./node_modules/@phosphor/widgets/lib/docklayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/dockpanel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/focustracker.d.ts",
+        "./node_modules/@phosphor/widgets/lib/gridlayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/menu.d.ts",
+        "./node_modules/@phosphor/widgets/lib/menubar.d.ts",
+        "./node_modules/@phosphor/widgets/lib/panel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/panellayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/scrollbar.d.ts",
+        "./node_modules/@phosphor/widgets/lib/singletonlayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/splitlayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/splitpanel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/stackedlayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/stackedpanel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/tabbar.d.ts",
+        "./node_modules/@phosphor/widgets/lib/tabpanel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/title.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/menubar.d.ts": [
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/virtualdom/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/menu.d.ts",
-        "./node_modules/@lumino/widgets/lib/title.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/menubar.d.ts": [
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/virtualdom/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/menu.d.ts",
+        "./node_modules/@phosphor/widgets/lib/title.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/contextmenu.d.ts": [
-        "./node_modules/@lumino/commands/lib/index.d.ts",
-        "./node_modules/@lumino/disposable/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/menu.d.ts"
+      "./node_modules/@phosphor/widgets/lib/contextmenu.d.ts": [
+        "./node_modules/@phosphor/commands/lib/index.d.ts",
+        "./node_modules/@phosphor/disposable/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/menu.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/commandpalette.d.ts": [
-        "./node_modules/@lumino/coreutils/lib/index.d.ts",
-        "./node_modules/@lumino/commands/lib/index.d.ts",
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/virtualdom/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/commandpalette.d.ts": [
+        "./node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "./node_modules/@phosphor/commands/lib/index.d.ts",
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/virtualdom/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/commands/lib/index.d.ts": [
-        "./node_modules/@lumino/coreutils/lib/index.d.ts",
-        "./node_modules/@lumino/disposable/lib/index.d.ts",
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/virtualdom/lib/index.d.ts"
+      "./node_modules/@phosphor/commands/lib/index.d.ts": [
+        "./node_modules/@phosphor/coreutils/lib/index.d.ts",
+        "./node_modules/@phosphor/disposable/lib/index.d.ts",
+        "./node_modules/@phosphor/signaling/lib/index.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/stackedlayout.d.ts": [
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/panellayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/stackedlayout.d.ts": [
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/panellayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/stackedpanel.d.ts": [
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/panel.d.ts",
-        "./node_modules/@lumino/widgets/lib/stackedlayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/stackedpanel.d.ts": [
+        "./node_modules/@phosphor/signaling/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/panel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/stackedlayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/tabpanel.d.ts": [
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/stackedpanel.d.ts",
-        "./node_modules/@lumino/widgets/lib/tabbar.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/tabpanel.d.ts": [
+        "./node_modules/@phosphor/signaling/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/stackedpanel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/tabbar.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/splitpanel.d.ts": [
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/panel.d.ts",
-        "./node_modules/@lumino/widgets/lib/splitlayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/splitpanel.d.ts": [
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/panel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/splitlayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/splitlayout.d.ts": [
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/panellayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/splitlayout.d.ts": [
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/panellayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/scrollbar.d.ts": [
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/scrollbar.d.ts": [
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/signaling/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/gridlayout.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/index.d.ts",
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/layout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/gridlayout.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/dockpanel.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/index.d.ts",
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/docklayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/tabbar.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/dockpanel.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/signaling/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/docklayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/tabbar.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/docklayout.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/index.d.ts",
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/layout.d.ts",
-        "./node_modules/@lumino/widgets/lib/tabbar.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/docklayout.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/tabbar.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/tabbar.d.ts": [
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/virtualdom/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/title.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/tabbar.d.ts": [
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/signaling/lib/index.d.ts",
+        "./node_modules/@phosphor/virtualdom/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/title.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/boxlayout.d.ts": [
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/panellayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/boxlayout.d.ts": [
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/panellayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/boxpanel.d.ts": [
-        "./node_modules/@lumino/widgets/lib/boxlayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/panel.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/boxpanel.d.ts": [
+        "./node_modules/@phosphor/widgets/lib/boxlayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/panel.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/layout.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/index.d.ts",
-        "./node_modules/@lumino/disposable/lib/index.d.ts",
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/layout.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "./node_modules/@phosphor/disposable/lib/index.d.ts",
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/singletonlayout.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/layout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/singletonlayout.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/panellayout.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/layout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/panellayout.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/panel.d.ts": [
-        "./node_modules/@lumino/widgets/lib/panellayout.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/panel.d.ts": [
+        "./node_modules/@phosphor/widgets/lib/panellayout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/widget.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/index.d.ts",
-        "./node_modules/@lumino/disposable/lib/index.d.ts",
-        "./node_modules/@lumino/messaging/lib/index.d.ts",
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/layout.d.ts",
-        "./node_modules/@lumino/widgets/lib/title.d.ts"
+      "./node_modules/@phosphor/widgets/lib/widget.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "./node_modules/@phosphor/disposable/lib/index.d.ts",
+        "./node_modules/@phosphor/messaging/lib/index.d.ts",
+        "./node_modules/@phosphor/signaling/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/layout.d.ts",
+        "./node_modules/@phosphor/widgets/lib/title.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/focustracker.d.ts": [
-        "./node_modules/@lumino/disposable/lib/index.d.ts",
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/widgets/lib/widget.d.ts"
+      "./node_modules/@phosphor/widgets/lib/focustracker.d.ts": [
+        "./node_modules/@phosphor/disposable/lib/index.d.ts",
+        "./node_modules/@phosphor/signaling/lib/index.d.ts",
+        "./node_modules/@phosphor/widgets/lib/widget.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/index.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/array.d.ts",
-        "./node_modules/@lumino/algorithm/lib/chain.d.ts",
-        "./node_modules/@lumino/algorithm/lib/empty.d.ts",
-        "./node_modules/@lumino/algorithm/lib/enumerate.d.ts",
-        "./node_modules/@lumino/algorithm/lib/filter.d.ts",
-        "./node_modules/@lumino/algorithm/lib/find.d.ts",
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts",
-        "./node_modules/@lumino/algorithm/lib/map.d.ts",
-        "./node_modules/@lumino/algorithm/lib/range.d.ts",
-        "./node_modules/@lumino/algorithm/lib/reduce.d.ts",
-        "./node_modules/@lumino/algorithm/lib/repeat.d.ts",
-        "./node_modules/@lumino/algorithm/lib/retro.d.ts",
-        "./node_modules/@lumino/algorithm/lib/sort.d.ts",
-        "./node_modules/@lumino/algorithm/lib/stride.d.ts",
-        "./node_modules/@lumino/algorithm/lib/string.d.ts",
-        "./node_modules/@lumino/algorithm/lib/take.d.ts",
-        "./node_modules/@lumino/algorithm/lib/zip.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/index.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/array.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/chain.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/empty.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/enumerate.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/filter.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/find.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/map.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/range.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/reduce.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/repeat.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/retro.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/sort.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/stride.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/string.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/take.d.ts",
+        "./node_modules/@phosphor/algorithm/lib/zip.d.ts"
       ],
-      "./node_modules/@lumino/disposable/lib/index.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/index.d.ts",
-        "./node_modules/@lumino/signaling/lib/index.d.ts"
+      "./node_modules/@phosphor/disposable/lib/index.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/index.d.ts",
+        "./node_modules/@phosphor/signaling/lib/index.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/zip.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/zip.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/take.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/take.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/stride.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/stride.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/sort.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/sort.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/retro.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/retro.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/repeat.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/repeat.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/reduce.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/reduce.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/range.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/range.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/map.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/map.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/find.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/find.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/filter.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/filter.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/enumerate.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/enumerate.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/empty.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/empty.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/algorithm/lib/chain.d.ts": [
-        "./node_modules/@lumino/algorithm/lib/iter.d.ts"
+      "./node_modules/@phosphor/algorithm/lib/chain.d.ts": [
+        "./node_modules/@phosphor/algorithm/lib/iter.d.ts"
       ],
-      "./node_modules/@lumino/widgets/lib/title.d.ts": [
-        "./node_modules/@lumino/signaling/lib/index.d.ts",
-        "./node_modules/@lumino/virtualdom/lib/index.d.ts"
+      "./node_modules/@phosphor/widgets/lib/title.d.ts": [
+        "./node_modules/@phosphor/signaling/lib/index.d.ts"
       ],
       "./node_modules/three/src/three.d.ts": [
         "./node_modules/three/src/polyfills.d.ts",
@@ -4347,61 +4343,61 @@
       ]
     },
     "semanticDiagnosticsPerFile": [
-      "./node_modules/@lumino/coreutils/lib/json.d.ts",
-      "./node_modules/@lumino/coreutils/lib/mime.d.ts",
-      "./node_modules/@lumino/coreutils/lib/promise.d.ts",
-      "./node_modules/@lumino/coreutils/lib/random.d.ts",
-      "./node_modules/@lumino/coreutils/lib/token.d.ts",
-      "./node_modules/@lumino/coreutils/lib/uuid.d.ts",
-      "./node_modules/@lumino/coreutils/lib/index.d.ts",
-      "./node_modules/@lumino/widgets/lib/boxengine.d.ts",
-      "./node_modules/@lumino/messaging/lib/index.d.ts",
-      "./node_modules/@lumino/algorithm/lib/array.d.ts",
-      "./node_modules/@lumino/algorithm/lib/iter.d.ts",
-      "./node_modules/@lumino/algorithm/lib/chain.d.ts",
-      "./node_modules/@lumino/algorithm/lib/empty.d.ts",
-      "./node_modules/@lumino/algorithm/lib/enumerate.d.ts",
-      "./node_modules/@lumino/algorithm/lib/filter.d.ts",
-      "./node_modules/@lumino/algorithm/lib/find.d.ts",
-      "./node_modules/@lumino/algorithm/lib/map.d.ts",
-      "./node_modules/@lumino/algorithm/lib/range.d.ts",
-      "./node_modules/@lumino/algorithm/lib/reduce.d.ts",
-      "./node_modules/@lumino/algorithm/lib/repeat.d.ts",
-      "./node_modules/@lumino/algorithm/lib/retro.d.ts",
-      "./node_modules/@lumino/algorithm/lib/sort.d.ts",
-      "./node_modules/@lumino/algorithm/lib/stride.d.ts",
-      "./node_modules/@lumino/algorithm/lib/string.d.ts",
-      "./node_modules/@lumino/algorithm/lib/take.d.ts",
-      "./node_modules/@lumino/algorithm/lib/zip.d.ts",
-      "./node_modules/@lumino/algorithm/lib/index.d.ts",
-      "./node_modules/@lumino/signaling/lib/index.d.ts",
-      "./node_modules/@lumino/disposable/lib/index.d.ts",
-      "./node_modules/@lumino/virtualdom/lib/index.d.ts",
-      "./node_modules/@lumino/widgets/lib/title.d.ts",
-      "./node_modules/@lumino/widgets/lib/widget.d.ts",
-      "./node_modules/@lumino/widgets/lib/layout.d.ts",
-      "./node_modules/@lumino/widgets/lib/panellayout.d.ts",
-      "./node_modules/@lumino/widgets/lib/boxlayout.d.ts",
-      "./node_modules/@lumino/widgets/lib/panel.d.ts",
-      "./node_modules/@lumino/widgets/lib/boxpanel.d.ts",
-      "./node_modules/@lumino/commands/lib/index.d.ts",
-      "./node_modules/@lumino/widgets/lib/commandpalette.d.ts",
-      "./node_modules/@lumino/widgets/lib/menu.d.ts",
-      "./node_modules/@lumino/widgets/lib/contextmenu.d.ts",
-      "./node_modules/@lumino/widgets/lib/tabbar.d.ts",
-      "./node_modules/@lumino/widgets/lib/docklayout.d.ts",
-      "./node_modules/@lumino/widgets/lib/dockpanel.d.ts",
-      "./node_modules/@lumino/widgets/lib/focustracker.d.ts",
-      "./node_modules/@lumino/widgets/lib/gridlayout.d.ts",
-      "./node_modules/@lumino/widgets/lib/menubar.d.ts",
-      "./node_modules/@lumino/widgets/lib/scrollbar.d.ts",
-      "./node_modules/@lumino/widgets/lib/singletonlayout.d.ts",
-      "./node_modules/@lumino/widgets/lib/splitlayout.d.ts",
-      "./node_modules/@lumino/widgets/lib/splitpanel.d.ts",
-      "./node_modules/@lumino/widgets/lib/stackedlayout.d.ts",
-      "./node_modules/@lumino/widgets/lib/stackedpanel.d.ts",
-      "./node_modules/@lumino/widgets/lib/tabpanel.d.ts",
-      "./node_modules/@lumino/widgets/lib/index.d.ts",
+      "./node_modules/@phosphor/coreutils/lib/json.d.ts",
+      "./node_modules/@phosphor/coreutils/lib/mime.d.ts",
+      "./node_modules/@phosphor/coreutils/lib/promise.d.ts",
+      "./node_modules/@phosphor/coreutils/lib/random.d.ts",
+      "./node_modules/@phosphor/coreutils/lib/token.d.ts",
+      "./node_modules/@phosphor/coreutils/lib/uuid.d.ts",
+      "./node_modules/@phosphor/coreutils/lib/index.d.ts",
+      "./node_modules/@phosphor/widgets/lib/boxengine.d.ts",
+      "./node_modules/@phosphor/messaging/lib/index.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/array.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/iter.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/chain.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/empty.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/enumerate.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/filter.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/find.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/map.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/range.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/reduce.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/repeat.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/retro.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/sort.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/stride.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/string.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/take.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/zip.d.ts",
+      "./node_modules/@phosphor/algorithm/lib/index.d.ts",
+      "./node_modules/@phosphor/signaling/lib/index.d.ts",
+      "./node_modules/@phosphor/disposable/lib/index.d.ts",
+      "./node_modules/@phosphor/widgets/lib/title.d.ts",
+      "./node_modules/@phosphor/widgets/lib/widget.d.ts",
+      "./node_modules/@phosphor/widgets/lib/layout.d.ts",
+      "./node_modules/@phosphor/widgets/lib/panellayout.d.ts",
+      "./node_modules/@phosphor/widgets/lib/boxlayout.d.ts",
+      "./node_modules/@phosphor/widgets/lib/panel.d.ts",
+      "./node_modules/@phosphor/widgets/lib/boxpanel.d.ts",
+      "./node_modules/@phosphor/commands/lib/index.d.ts",
+      "./node_modules/@phosphor/virtualdom/lib/index.d.ts",
+      "./node_modules/@phosphor/widgets/lib/commandpalette.d.ts",
+      "./node_modules/@phosphor/widgets/lib/menu.d.ts",
+      "./node_modules/@phosphor/widgets/lib/contextmenu.d.ts",
+      "./node_modules/@phosphor/widgets/lib/tabbar.d.ts",
+      "./node_modules/@phosphor/widgets/lib/docklayout.d.ts",
+      "./node_modules/@phosphor/widgets/lib/dockpanel.d.ts",
+      "./node_modules/@phosphor/widgets/lib/focustracker.d.ts",
+      "./node_modules/@phosphor/widgets/lib/gridlayout.d.ts",
+      "./node_modules/@phosphor/widgets/lib/menubar.d.ts",
+      "./node_modules/@phosphor/widgets/lib/scrollbar.d.ts",
+      "./node_modules/@phosphor/widgets/lib/singletonlayout.d.ts",
+      "./node_modules/@phosphor/widgets/lib/splitlayout.d.ts",
+      "./node_modules/@phosphor/widgets/lib/splitpanel.d.ts",
+      "./node_modules/@phosphor/widgets/lib/stackedlayout.d.ts",
+      "./node_modules/@phosphor/widgets/lib/stackedpanel.d.ts",
+      "./node_modules/@phosphor/widgets/lib/tabpanel.d.ts",
+      "./node_modules/@phosphor/widgets/lib/index.d.ts",
       "./node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
       "./node_modules/three/src/polyfills.d.ts",
       "./node_modules/three/src/math/quaternion.d.ts",

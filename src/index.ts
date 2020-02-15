@@ -1,6 +1,6 @@
 import { IRenderMime } from '@jupyterlab/rendermime-interfaces';
-import { Widget } from '@lumino/widgets';
-
+import { Widget } from '@phosphor/widgets';
+//import { Widget } from '@lumino/widgets';
 // ThreeJS
 import * as THREE from 'three';
 import { ColladaLoader } from 'three/examples/jsm/loaders/ColladaLoader.js';
