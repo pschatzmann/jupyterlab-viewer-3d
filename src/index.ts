@@ -163,29 +163,16 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
                 self.mesh = new THREE.Mesh( geometry, material );
               }
                 
-              // center the content
-              //var box = new THREE.Box3().setFromObject( self.mesh );
-              //var center = new THREE.Vector3();
-              //box.getCenter( center );
-              //self.mesh.position.sub( center ); // center the model
-              //self.mesh.rotation.y = Math.PI;   // rotate the model
-            
-              // pull the camera away so that it is a reasonable size
-              //var largestDimension = Math.max(box.max.x, box.max.y, box.max.z)
-              //self.camera.position.z = largestDimension * 10;
-              self.fitCameraToObject(self.mesh, self.camera, self.controls);
-              
-              //The focus point of the controls,
-              //self.controls.target.set( 0, 0, 0 );
-
-              // add object to screen
-              self.scene.add( self.mesh );
-
               // setup with/height
               self.renderer.setPixelRatio( window.devicePixelRatio );
               self.renderer.setSize( self.node.clientWidth, self.node.clientHeight );
               self.camera.aspect = self.node.clientWidth/self.node.clientHeight;
-              self.camera.updateProjectionMatrix();
+
+              // pull the camera away so that it is a reasonable size
+              self.fitCameraToObject(self.mesh, self.camera, self.controls);
+              
+              // add object to screen
+              self.scene.add( self.mesh );
 
               // render
               self.render();
