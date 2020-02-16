@@ -60,12 +60,18 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
           var grid = new THREE.GridHelper( 50, 50, 0xffffff, 0x555555 );
           grid.rotateOnAxis( new THREE.Vector3( 1, 0, 0 ), 90 * ( Math.PI / 180 ) );
           this.scene.add( grid );
- 
+
+          // setup Controls
+          this.controls.enableDamping = true;
+          this.controls.enableZoom = true;
+          this.controls.enabled = true;
+          this.controls.autoRotate = true;
+          this.controls.autoRotateSpeed = 1;
+          
           // add data
           this.load(dataUrl);
           this.node.appendChild( this.renderer.domElement );
       
-        
           // handle resizing
           window.addEventListener('resize', (event) => {
             //console.log("resize")
@@ -74,14 +80,6 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
             this.camera.updateProjectionMatrix();
             this.render();
           }, false);
-
-          // setup Controls
-          this.controls.enableDamping = true;
-          this.controls.enableZoom = true;
-          this.controls.enabled = true;
-          this.controls.autoRotate = true;
-          this.controls.autoRotateSpeed = 1;
-
 
           // handle mouse events
           this.controls.addEventListener( 'change', (event) => { 
@@ -107,7 +105,7 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
     animate() {
         // required if controls.enableDamping or controls.autoRotate are set to true
         this.controls.update();
-        this.renderer.render( this.scene, this.camera );
+        this.render();
         requestAnimationFrame(this.animate.bind(this));
     }
 
@@ -129,15 +127,6 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
                 self.mesh = new THREE.Mesh( geometry, material );
               }
                 
-              // center object
-              //var middle = new THREE.Vector3();
-              //geometry.computeBoundingBox();
-              //geometry.boundingBox.getCenter(middle);
-              //self.mesh.position.x = -middle.x;
-              //self.mesh.position.y = -middle.y;
-              //self.mesh.position.z = -middle.z;
-              //var largestDimension = Math.max(geometry.boundingBox.max.x, geometry.boundingBox.max.y, geometry.boundingBox.max.z)
-
               // center the content
               var box = new THREE.Box3().setFromObject( self.mesh );
               var center = new THREE.Vector3();
@@ -162,7 +151,7 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
               self.camera.updateProjectionMatrix();
 
               // render
-              self.renderer.render( self.scene, self.camera );
+              self.render();
             } catch(error) {
               console.error(error);
               self.node.textContent = error
