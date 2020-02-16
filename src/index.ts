@@ -125,26 +125,26 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
                 //var material = new THREE.MeshPhongMaterial( { color: self.materialColor, specular: 100, shininess: 100 } );
                 var material = new THREE.MeshNormalMaterial();
                 self.mesh = new THREE.Mesh( geometry, material );
-                // center object
-                var middle = new THREE.Vector3();
-                geometry.computeBoundingBox();
-                geometry.boundingBox.getCenter(middle);
-                self.mesh.position.x = -middle.x;
-                self.mesh.position.y = -middle.y;
-                self.mesh.position.z = -middle.z;
-                
-                // pull the camera away so that it is a reasonable size
-                var largestDimension = Math.max(geometry.boundingBox.max.x, geometry.boundingBox.max.y, geometry.boundingBox.max.z)
-                self.camera.position.z = largestDimension * 1.5;
-                
-                //The focus point of the controls,
-                self.controls.target.set( 0, 0, 0 );
-
-
               } else {
                 self.mesh = geometry;
               }
               
+              // center object
+              var middle = new THREE.Vector3();
+              geometry.computeBoundingBox();
+              geometry.boundingBox.getCenter(middle);
+              self.mesh.position.x = -middle.x;
+              self.mesh.position.y = -middle.y;
+              self.mesh.position.z = -middle.z;
+              
+              // pull the camera away so that it is a reasonable size
+              var largestDimension = Math.max(geometry.boundingBox.max.x, geometry.boundingBox.max.y, geometry.boundingBox.max.z)
+              self.camera.position.z = largestDimension * 1.5;
+              
+              //The focus point of the controls,
+              self.controls.target.set( 0, 0, 0 );
+
+
               self.scene.add( self.mesh );
 
               // setup with/height
