@@ -16,7 +16,7 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
  * The class name added to the extension.
  */
 const CLASS_NAME = 'mimerenderer-3d';
-//const MIME_EXTENSIONS = ['stl','amf','obj','3mf','gcode','dae'];
+const MIME_EXTENSIONS = ['stl','amf','obj','3mf','gcode','dae'];
 const MIME_TYPES = ['model/stl','model/amf','model/obj','model/3mf','model/gcode','model/vnd.collada+xml'];
 
 /**
@@ -231,14 +231,15 @@ const extension: IRenderMime.IExtension = {
       mimeTypes: ['model/vnd.collada+xml/dae'],
       extensions: ['.dae']
     }
-  ]//,
-//  documentWidgetFactoryOptions: {
-//    name: '3D viewer',
-//    primaryFileType: 'stl',
-//    modelName: 'base64',
-//    fileTypes: MIME_EXTENSIONS,
-//    defaultFor: MIME_EXTENSIONS
-//  }
+  ],
+  documentWidgetFactoryOptions: {
+    name: '3D viewer',
+    primaryFileType: 'stl',
+    modelName: 'base64',
+    fileTypes: MIME_EXTENSIONS,
+    defaultFor: MIME_EXTENSIONS,
+    defaultRendered: MIME_EXTENSIONS
+  }
 };
 
 export default extension;
