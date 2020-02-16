@@ -25,8 +25,8 @@ const MIME_TYPES = ['model/stl','model/amf','model/obj','model/3mf','model/gcode
 export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
     private scene = new THREE.Scene();
     private renderer = new THREE.WebGLRenderer( { antialias: true, alpha: true  } );;
-    private camera = new THREE.PerspectiveCamera( 70, this.node.clientWidth/ this.node.clientHeight, 1, 100 );
-    private controls!:OrbitControls;
+    private camera = new THREE.PerspectiveCamera( 40, this.node.clientWidth/ this.node.clientHeight, 1, 100 );
+    private controls =  new OrbitControls( this.camera, this.renderer.domElement );;
     private mimeType:string;
     private mesh:any;
     //private materialColor = 0x0000FF;
@@ -52,9 +52,15 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
           // setup camera
           this.scene.background = new THREE.Color( 0x999999 );
           this.scene.add( new THREE.AmbientLight( 0xffffff ) );
-          //this.camera.add( new THREE.PointLight( 0xff0000, 1, 100 ) );          
+          this.camera.add( new THREE.PointLight( 0xffffff, 0.8 ) );
+          this.camera.up.set( 0, 0, 1 );
           this.scene.add( this.camera );
 
+          // add grid
+          var grid = new THREE.GridHelper( 50, 50, 0xffffff, 0x555555 );
+          grid.rotateOnAxis( new THREE.Vector3( 1, 0, 0 ), 90 * ( Math.PI / 180 ) );
+          this.scene.add( grid );
+ 
           // add data
           this.load(dataUrl);
           this.node.appendChild( this.renderer.domElement );
@@ -66,20 +72,20 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
             this.renderer.setSize(this.node.clientWidth, this.node.clientHeight);
             this.camera.aspect = this.node.clientWidth/this.node.clientHeight;
             this.camera.updateProjectionMatrix();
+            this.render();
           }, false);
 
-
           // setup Controls
-          this.controls = new OrbitControls( this.camera, this.renderer.domElement );
           this.controls.enableDamping = true;
           this.controls.enableZoom = true;
           this.controls.enabled = true;
           this.controls.autoRotate = true;
           this.controls.autoRotateSpeed = 1;
 
+
           // handle mouse events
           this.controls.addEventListener( 'change', (event) => { 
-            this.renderer.render( this.scene, this.camera );
+              this.render();
            } );
            this.controls.update();
 
@@ -92,6 +98,10 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
       }   
         
       return Promise.resolve();
+    }
+
+    render() {
+      this.renderer.render( this.scene, this.camera );
     }
 
     animate() {
@@ -126,6 +136,11 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
                 // pull the camera away so that it is a reasonable size
                 var largestDimension = Math.max(geometry.boundingBox.max.x, geometry.boundingBox.max.y, geometry.boundingBox.max.z)
                 self.camera.position.z = largestDimension * 1.5;
+                
+                //The focus point of the controls,
+                self.controls.target.set( middle.x, middle.y, middle.z );
+
+
               } else {
                 self.mesh = geometry;
               }
