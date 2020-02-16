@@ -130,16 +130,23 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
               }
               
               // center object
-              var middle = new THREE.Vector3();
-              geometry.computeBoundingBox();
-              geometry.boundingBox.getCenter(middle);
-              self.mesh.position.x = -middle.x;
-              self.mesh.position.y = -middle.y;
-              self.mesh.position.z = -middle.z;
+              //var middle = new THREE.Vector3();
+              //geometry.computeBoundingBox();
+              //geometry.boundingBox.getCenter(middle);
+              //self.mesh.position.x = -middle.x;
+              //self.mesh.position.y = -middle.y;
+              //self.mesh.position.z = -middle.z;
+
+              // center the content
+              self.mesh = new THREE.Box3().setFromObject( self.mesh ).getCenter( self.mesh.position ).multiplyScalar( - 1 );
+              //var middle = new THREE.Vector3();
+              //self.mesh.getCenter(middle);
               
+
               // pull the camera away so that it is a reasonable size
-              var largestDimension = Math.max(geometry.boundingBox.max.x, geometry.boundingBox.max.y, geometry.boundingBox.max.z)
-              self.camera.position.z = largestDimension * 1.5;
+              //var largestDimension = Math.max(geometry.boundingBox.max.x, geometry.boundingBox.max.y, geometry.boundingBox.max.z)
+              var largestDimension = Math.max(self.mesh.max.x, self.mesh.max.y, self.mesh.max.z)
+              self.camera.position.z = largestDimension * 10;
               
               //The focus point of the controls,
               self.controls.target.set( 0, 0, 0 );
