@@ -58,7 +58,8 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
 
           // add grid
           var grid = new THREE.GridHelper( 200, 20, 0xffffff, 0x555555 );
-          grid.rotateOnAxis( new THREE.Vector3( 0, 0, 1 ),  Math.PI * 0.5  );
+          //grid.rotateOnAxis( new THREE.Vector3( 1, 0, 0 ),  Math.PI * 0.5  );
+          grid.rotation.x = Math.PI / 2;
           this.scene.add( grid );
 
           // setup Controls
