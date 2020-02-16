@@ -164,11 +164,11 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
               }
                 
               // center the content
-              var box = new THREE.Box3().setFromObject( self.mesh );
-              var center = new THREE.Vector3();
-              box.getCenter( center );
-              self.mesh.position.sub( center ); // center the model
-              self.mesh.rotation.y = Math.PI;   // rotate the model
+              //var box = new THREE.Box3().setFromObject( self.mesh );
+              //var center = new THREE.Vector3();
+              //box.getCenter( center );
+              //self.mesh.position.sub( center ); // center the model
+              //self.mesh.rotation.y = Math.PI;   // rotate the model
             
               // pull the camera away so that it is a reasonable size
               //var largestDimension = Math.max(box.max.x, box.max.y, box.max.z)
