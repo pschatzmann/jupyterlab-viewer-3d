@@ -69,7 +69,6 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
           this.controls.autoRotateSpeed = 1;
           
           // add data
-          this.load(dataUrl);
           this.node.appendChild( this.renderer.domElement );
       
           // handle resizing
@@ -89,6 +88,10 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
 
           // animation
           this.animate();
+
+          // display the data
+          this.load(dataUrl);
+
 
       } catch(error) {
         console.error(error);
@@ -157,6 +160,11 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
               self.node.textContent = error
           }   
     
+        }, (xhr) => {
+          console.log("loaded");
+        }, (error)=> {
+          console.error(error);
+          self.node.textContent = error.message;
         });
 
     }
