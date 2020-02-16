@@ -234,53 +234,47 @@ const extension: IRenderMime.IExtension = {
   ],
   documentWidgetFactoryOptions: [
     { 
-      name: '3D viewer',
+      name: '3D viewer-STL',
       primaryFileType: 'stl',
       modelName: 'base64',
       fileTypes: ['stl'],
       defaultFor: ['stl'],
-      defaultRendered: ['stl']
     },
     { 
-      name: '3D viewer',
+      name: '3D viewer-AMF',
       primaryFileType: 'amf',
       modelName: 'base64',
       fileTypes: ['amf'],
       defaultFor: ['amf'],
-      defaultRendered: ['amf']
     },
     { 
-      name: '3D viewer',
+      name: '3D viewer-OBJ',
       primaryFileType: 'obj',
       modelName: 'base64',
       fileTypes: ['obj'],
       defaultFor: ['obj'],
-      defaultRendered: ['obj']
     },
     { 
-      name: '3D viewer',
+      name: '3D viewer-3MF',
       primaryFileType: '3mf',
       modelName: 'base64',
       fileTypes: ['3mf'],
       defaultFor: ['3mf'],
-      defaultRendered: ['3mf']
     },
     { 
-      name: '3D viewer',
+      name: '3D viewer-GCODE',
       primaryFileType: 'gcode',
       modelName: 'base64',
       fileTypes: ['gcode'],
       defaultFor: ['gcode'],
-      defaultRendered: ['gcode']
     },
     { 
-      name: '3D viewer',
+      name: '3D viewer-DAE',
       primaryFileType: 'dae',
       modelName: 'base64',
       fileTypes: ['dae'],
       defaultFor: ['dae'],
-      defaultRendered: ['dae']
-    },
+    }
   ]
 };
 
