@@ -16,7 +16,7 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
  * The class name added to the extension.
  */
 const CLASS_NAME = 'mimerenderer-3d';
-const MIME_EXTENSIONS = ['stl','amf','obj','3mf','gcode','dae'];
+//const MIME_EXTENSIONS = ['stl','amf','obj','3mf','gcode','dae'];
 const MIME_TYPES = ['model/stl','model/amf','model/obj','model/3mf','model/gcode','model/vnd.collada+xml'];
 
 /**
@@ -232,14 +232,56 @@ const extension: IRenderMime.IExtension = {
       extensions: ['.dae']
     }
   ],
-  documentWidgetFactoryOptions: {
-    name: '3D viewer',
-    primaryFileType: 'stl',
-    modelName: 'base64',
-    fileTypes: MIME_EXTENSIONS,
-    defaultFor: MIME_EXTENSIONS,
-    defaultRendered: MIME_EXTENSIONS
-  }
+  documentWidgetFactoryOptions: [
+    { 
+      name: '3D viewer',
+      primaryFileType: 'stl',
+      modelName: 'base64',
+      fileTypes: ['stl'],
+      defaultFor: ['stl'],
+      defaultRendered: ['stl']
+    },
+    { 
+      name: '3D viewer',
+      primaryFileType: 'amf',
+      modelName: 'base64',
+      fileTypes: ['amf'],
+      defaultFor: ['amf'],
+      defaultRendered: ['amf']
+    },
+    { 
+      name: '3D viewer',
+      primaryFileType: 'obj',
+      modelName: 'base64',
+      fileTypes: ['obj'],
+      defaultFor: ['obj'],
+      defaultRendered: ['obj']
+    },
+    { 
+      name: '3D viewer',
+      primaryFileType: '3mf',
+      modelName: 'base64',
+      fileTypes: ['3mf'],
+      defaultFor: ['3mf'],
+      defaultRendered: ['3mf']
+    },
+    { 
+      name: '3D viewer',
+      primaryFileType: 'gcode',
+      modelName: 'base64',
+      fileTypes: ['gcode'],
+      defaultFor: ['gcode'],
+      defaultRendered: ['gcode']
+    },
+    { 
+      name: '3D viewer',
+      primaryFileType: 'dae',
+      modelName: 'base64',
+      fileTypes: ['dae'],
+      defaultFor: ['dae'],
+      defaultRendered: ['dae']
+    },
+  ]
 };
 
 export default extension;
