@@ -138,7 +138,7 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
                 self.camera.position.z = largestDimension * 1.5;
                 
                 //The focus point of the controls,
-                self.controls.target.set( middle.x, middle.y, middle.z );
+                self.controls.target.set( 0, 0, 0 );
 
 
               } else {
@@ -231,14 +231,14 @@ const extension: IRenderMime.IExtension = {
       mimeTypes: ['model/vnd.collada+xml/dae'],
       extensions: ['.dae']
     }
-  ],
-  documentWidgetFactoryOptions: {
-    name: '3D viewer',
-    primaryFileType: 'stl',
-    modelName: 'base64',
-    fileTypes: MIME_EXTENSIONS,
-    defaultFor: MIME_EXTENSIONS
-  }
+  ]//,
+//  documentWidgetFactoryOptions: {
+//    name: '3D viewer',
+//    primaryFileType: 'stl',
+//    modelName: 'base64',
+//    fileTypes: MIME_EXTENSIONS,
+//    defaultFor: MIME_EXTENSIONS
+//  }
 };
 
 export default extension;
