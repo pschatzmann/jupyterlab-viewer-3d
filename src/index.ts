@@ -121,14 +121,14 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
         var self = this;
         loader.load(dataUrl, function (geometry:any) {
           try {
-              if (self.mimeType=='model/stl'){
+              if (geometry instanceof THREE.Group){
+                self.mesh = geometry;
+              } else {
                 //var material = new THREE.MeshPhongMaterial( { color: self.materialColor, specular: 100, shininess: 100 } );
                 var material = new THREE.MeshNormalMaterial();
                 self.mesh = new THREE.Mesh( geometry, material );
-              } else {
-                self.mesh = geometry;
               }
-              
+                
               // center object
               //var middle = new THREE.Vector3();
               //geometry.computeBoundingBox();
@@ -136,19 +136,23 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
               //self.mesh.position.x = -middle.x;
               //self.mesh.position.y = -middle.y;
               //self.mesh.position.z = -middle.z;
+              //var largestDimension = Math.max(geometry.boundingBox.max.x, geometry.boundingBox.max.y, geometry.boundingBox.max.z)
 
               // center the content
-              var box = new THREE.Box3().setFromObject( self.mesh ).getCenter( self.mesh.position ).multiplyScalar( - 1 );
-
+              var box = new THREE.Box3().setFromObject( self.mesh );
+              var center = new THREE.Vector3();
+              box.getCenter( center );
+              self.mesh.position.sub( center ); // center the model
+              self.mesh.rotation.y = Math.PI;   // rotate the model
+            
               // pull the camera away so that it is a reasonable size
-              //var largestDimension = Math.max(geometry.boundingBox.max.x, geometry.boundingBox.max.y, geometry.boundingBox.max.z)
-              var largestDimension = Math.max(box.x, box.y, box.z)
+              var largestDimension = Math.max(box.max.x, box.max.y, box.max.z)
               self.camera.position.z = largestDimension * 10;
               
               //The focus point of the controls,
               self.controls.target.set( 0, 0, 0 );
 
-
+              // add object to screen
               self.scene.add( self.mesh );
 
               // setup with/height
@@ -223,7 +227,7 @@ const extension: IRenderMime.IExtension = {
       name: '3mf',
       fileFormat: 'base64',
       mimeTypes: ['model/3mf'],
-      extensions: ['.3fm']
+      extensions: ['.3mf']
     },{
       name: 'gcode',
       fileFormat: 'base64',
@@ -238,42 +242,42 @@ const extension: IRenderMime.IExtension = {
   ],
   documentWidgetFactoryOptions: [
     { 
-      name: '3D viewer-STL',
+      name: '3D viewer (STL)',
       primaryFileType: 'stl',
       modelName: 'base64',
       fileTypes: ['stl'],
       defaultFor: ['stl'],
     },
     { 
-      name: '3D viewer-AMF',
+      name: '3D viewer (AMF)',
       primaryFileType: 'amf',
       modelName: 'base64',
       fileTypes: ['amf'],
       defaultFor: ['amf'],
     },
     { 
-      name: '3D viewer-OBJ',
+      name: '3D viewer (OBJ)',
       primaryFileType: 'obj',
       modelName: 'base64',
       fileTypes: ['obj'],
       defaultFor: ['obj'],
     },
     { 
-      name: '3D viewer-3MF',
+      name: '3D viewer (3MF)',
       primaryFileType: '3mf',
       modelName: 'base64',
       fileTypes: ['3mf'],
       defaultFor: ['3mf'],
     },
     { 
-      name: '3D viewer-GCODE',
+      name: '3D viewer (GCODE)',
       primaryFileType: 'gcode',
       modelName: 'base64',
       fileTypes: ['gcode'],
       defaultFor: ['gcode'],
     },
     { 
-      name: '3D viewer-DAE',
+      name: '3D viewer (DAE)',
       primaryFileType: 'dae',
       modelName: 'base64',
       fileTypes: ['dae'],
