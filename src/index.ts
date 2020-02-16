@@ -139,8 +139,6 @@ export class Output3DWidget extends Widget implements IRenderMime.IRenderer {
 
               // center the content
               self.mesh = new THREE.Box3().setFromObject( self.mesh ).getCenter( self.mesh.position ).multiplyScalar( - 1 );
-              var middle = new THREE.Vector3();
-              self.mesh.getCenter(middle)              
 
               // pull the camera away so that it is a reasonable size
               //var largestDimension = Math.max(geometry.boundingBox.max.x, geometry.boundingBox.max.y, geometry.boundingBox.max.z)
