@@ -1,7 +1,7 @@
 {
   "name": "jupyterlab-viewer-3d",
-  "version": "3.0.0",
-  "description": "A JupyterLab extension for rendering stl files.",
+  "version": "3.0.1",
+  "description": "A JupyterLab 3.0 extension for rendering stl files.",
   "author": "Phil Schatzmann <phil.schatzmann@gmail.com>",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
