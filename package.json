@@ -13,29 +13,40 @@
   ],
   "files": [
     "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
-    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}",
+    "style/index.js"
   ],
   "jupyterlab": {
-    "mimeExtension": true
+    "mimeExtension": true,
+    "outputDir": "jupyterlab-viewer-3d/labextension"
   },
   "scripts": {
-    "clean": "rimraf lib && rimraf tsconfig.tsbuildinfo",
     "build": "tsc",
-    "prepare": "npm run clean && npm run build",
-    "watch": "tsc -w",
+    "clean": "rimraf lib && rimraf tsconfig.tsbuildinfo",
+    "extension:disable": "jupyter labextension disable jupyterlab-viewer-3d",
+    "extension:enable": "jupyter labextension enable jupyterlab-viewer-3d",
     "extension:install": "jupyter labextension install jupyterlab-viewer-3d",
     "extension:uninstall": "jupyter labextension uninstall  jupyterlab-viewer-3d",
-    "extension:enable": "jupyter labextension enable jupyterlab-viewer-3d",
-    "extension:disable": "jupyter labextension disable jupyterlab-viewer-3d"
+    "prepare": "npm run clean && npm run build",
+    "watch": "tsc -w"
   },
   "dependencies": {
-    "@jupyterlab/rendermime-interfaces": "^1.3.0",
-    "@phosphor/widgets": "^1.5.0",
-    "three": "^0.113.2"
+    "@jupyterlab/rendermime-interfaces": "^3.0.7",
+    "@lumino/widgets": "^1.16.1",
+    "three": "^0.127.0"
   },
   "devDependencies": {
+    "@jupyterlab/builder": "^3.0.0",
     "@types/react": "~16.9.16",
-    "rimraf": "^2.6.3",
-    "typescript": "~3.7.0"
-  }
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.1.1",
+    "rimraf": "^3.0.2",
+    "typescript": "~4.1.3"
+  },
+  "styleModule": "style/index.js"
 }
