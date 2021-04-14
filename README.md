@@ -4,7 +4,7 @@ A JupyterLab extension for rendering 3d files (stl, amf, obj, 3mf, gcode, collad
 
 ## Prerequisites
 
-* JupyterLab 1.0 or later
+* JupyterLab 3.0 or later
 
 ## Installation
 
