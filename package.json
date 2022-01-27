@@ -33,7 +33,7 @@
   "dependencies": {
     "@jupyterlab/rendermime-interfaces": "^3.0.7",
     "@lumino/widgets": "^1.16.1",
-    "three": "^0.127.0"
+    "three": "^0.137.0"
   },
   "devDependencies": {
     "@jupyterlab/builder": "^3.0.0",
